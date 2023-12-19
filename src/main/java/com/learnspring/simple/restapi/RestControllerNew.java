@@ -17,7 +17,9 @@ public class RestControllerNew {
 	public List<Phones> retriveAllPhones(){
 		return Arrays.asList(new Phones("iPhone",78000,"Apple"),
 				new Phones("S23", 90000, "Samsung"),
-				new Phones("Phone 1", 40000, "Nothing"));
+				new Phones("Phone 1", 40000, "Nothing"),
+				new Phones("Poco F1", 20000, "Xiaomi"),
+				new Phones("Poco x3", 24000, "Xiaomi"));
 		/*
 		<!-- this dependency is for devtools we get features such as automatically-->
 	   <!-- restart server on changes-->
