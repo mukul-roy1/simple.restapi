@@ -3,7 +3,7 @@ package com.learnspring.simple.restapi;
 import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.stereotype.Component;
 
-@ConfigurationProperties(prefix = "tcs-service")
+@ConfigurationProperties(prefix = "main-service")
 /*
  * this annotation's work is to map all config with the prefix to the 
  * members of this class
